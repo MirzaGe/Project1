@@ -16,6 +16,8 @@ class InterfaceController: WKInterfaceController {
     
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
+        table.setNumberOfRows(10, withRowType: "Row")
+        
     }
     
     override func willActivate() {
