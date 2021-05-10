@@ -12,18 +12,22 @@ import Foundation
 class InterfaceController: WKInterfaceController {
 
     @IBOutlet var table: WKInterfaceTable!
+    var notes = [String]()
     
     
     override func awake(withContext context: Any?) {
         // Configure interface objects here.
-        table.setNumberOfRows(10, withRowType: "Row")
+        table.setNumberOfRows(notes.count, withRowType: "Row")
         
-        for rowIndex in 0..<10 {
-            guard let row = table.rowController(at: rowIndex) as? NoteSelectRow else { continue }
-            row.textLabel.setText ("Hello, row \(rowIndex)")
+        for rowIndex in 0..<notes.count {
+            Set( rowIndex, notes[rowIndex])
             
         }
         
+        func Set(row rowIndex: Int, to text: String) {
+        guard let row = table.rowController(at: rowIndex) as? NoteSelectRow else { return }
+        row.textLabel.setText(text)
+        }
     }
     
     override func willActivate() {
@@ -38,3 +42,4 @@ class InterfaceController: WKInterfaceController {
     }
     
 }
+
