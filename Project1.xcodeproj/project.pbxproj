@@ -21,6 +21,7 @@
 		44E22BE82649A37E00C6B910 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E22BE72649A37E00C6B910 /* ExtensionDelegate.swift */; };
 		44E22BEA2649A37E00C6B910 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E22BE92649A37E00C6B910 /* ComplicationController.swift */; };
 		44E22BEC2649A38000C6B910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E22BEB2649A38000C6B910 /* Assets.xcassets */; };
+		44E22BFF2649B64D00C6B910 /* NoteSelectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E22BFE2649B64D00C6B910 /* NoteSelectRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		44E22BE92649A37E00C6B910 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		44E22BEB2649A38000C6B910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44E22BED2649A38000C6B910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44E22BFE2649B64D00C6B910 /* NoteSelectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NoteSelectRow.swift; path = "Project1 WatchKit App/NoteSelectRow.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		44E22BE42649A37E00C6B910 /* Project1 WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				44E22BFE2649B64D00C6B910 /* NoteSelectRow.swift */,
 				44E22BE52649A37E00C6B910 /* InterfaceController.swift */,
 				44E22BE72649A37E00C6B910 /* ExtensionDelegate.swift */,
 				44E22BE92649A37E00C6B910 /* ComplicationController.swift */,
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44E22BFF2649B64D00C6B910 /* NoteSelectRow.swift in Sources */,
 				44E22BE82649A37E00C6B910 /* ExtensionDelegate.swift in Sources */,
 				44E22BE62649A37E00C6B910 /* InterfaceController.swift in Sources */,
 				44E22BEA2649A37E00C6B910 /* ComplicationController.swift in Sources */,
