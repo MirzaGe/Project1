@@ -18,6 +18,8 @@ class InterfaceController: WKInterfaceController {
         // Configure interface objects here.
         table.setNumberOfRows(10, withRowType: "Row")
         
+        for rowIndex in 0 ..<10
+        
     }
     
     override func willActivate() {
