@@ -20,7 +20,7 @@ class InterfaceController: WKInterfaceController {
         table.setNumberOfRows(notes.count, withRowType: "Row")
         
         for rowIndex in 0..<notes.count {
-            Set( rowIndex, notes[rowIndex])
+            Set( row:rowIndex, to: notes[rowIndex])
             
         }
         
